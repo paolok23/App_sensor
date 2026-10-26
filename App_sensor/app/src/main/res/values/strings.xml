@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">App_sensor</string>
+
+    <string-array name="cargos_array">
+        <item>Cargo</item>
+        <item>Administrador</item>
+        <item>Técnico</item>
+        <item>Operador</item>
+    </string-array>
+</resources>

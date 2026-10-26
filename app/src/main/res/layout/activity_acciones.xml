@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/fondo2"
+android:orientation="vertical"
+tools:context=".Acciones">
+
+<TextView
+    android:id="@+id/tvusuacciones"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="12dp"
+    android:text="Nombre Usuario"
+    android:textAlignment="center"
+    android:textColor="#E60B0B"
+    android:textSize="34sp"
+    android:textStyle="bold" />
+
+<TextView
+    android:id="@+id/tvtitacc"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="12dp"
+    android:text="Ver Acciones"
+    android:textAlignment="center"
+    android:textColor="#156CF0"
+    android:textSize="34sp"
+    android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="20dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tv1acci"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Fecha"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv2acci"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:text=":"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvfecacci"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contenido"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+</LinearLayout>
+
+        <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="20dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tv3acci"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Hora"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv4acci"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:text=":"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvhoracci"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contenido"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+</LinearLayout>
+
+        <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="20dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tv5acci"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Usuario"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv6acci"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:text=":"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvusuacci"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contenido"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+</LinearLayout>
+
+        <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="20dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tv7acci"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Acción"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv8acci"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:text=":"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvaccacci"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contenido"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+</LinearLayout>
+
+        <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="20dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tv9acci"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Distancia"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv10acci"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:text=":"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvdisacci"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contenido"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+</LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv1acci_2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Fecha"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv2acci_2"
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvfecacci_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contenido"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv3acci_2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Hora"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv4acci_2"
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvhoracci_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contenido"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv5acci_2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Usuario"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv6acci_2"
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvusuacci_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contenido"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv7acci_2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Acción"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv8acci_2"
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvaccacci_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contenido"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv9acci_2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Distancia"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv10acci_2"
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvdisacci_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contenido"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnvolvman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#D71313"
+        android:text="Volver"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
